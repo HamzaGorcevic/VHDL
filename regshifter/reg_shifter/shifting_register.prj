@@ -1,1 +1,2 @@
+vhdl work "clock_divider.vhd"
 vhdl work "reg_shifter.vhd"

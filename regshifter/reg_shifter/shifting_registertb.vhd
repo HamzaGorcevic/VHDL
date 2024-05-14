@@ -51,16 +51,43 @@ ARCHITECTURE behavior OF shifting_register_tb IS
         iDATA <= "10101010"; -- Example data pattern
         WAIT FOR 30 ns;
         iLOAD <= '0';
-        
-        
         iSHL <= '1';
+		  
         WAIT FOR 40 ns;
-        iSHL <= '0';
+		  iLOAD <= '0';
+		          iSHL <= '0';
+
+
         
        
         iSHR <= '1';
         WAIT FOR 40 ns;
         iSHR <= '0';
+
+		  
+		  WAIT for 40 ns;
+
+		  iSHL<='1';
+		  iSHR<='0';
+		  WAIT for 40 ns;
+		  iSHL<='1';
+		  iSHR<='0';
+		  
+		  WAIT for 40 ns;
+		  iSHL<='0';
+		  iSHR<='1';
+		  iARITH<='1';
+		   WAIT for 40 ns;
+			iSHL<='0';
+		  iSHR<='1';
+		  iARITH<='1';
+		   WAIT for 40 ns;
+			iSHR<='0';
+			
+		  iSHL<='1';
+		  iARITH<='1';
+
+		  
 
         WAIT;
     END PROCESS;

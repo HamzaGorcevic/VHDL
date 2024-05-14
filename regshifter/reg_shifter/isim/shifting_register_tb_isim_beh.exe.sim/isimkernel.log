@@ -2,28 +2,28 @@ Command line:
    shifting_register_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  45131
+     -socket  43035
 
-Tue May 14 07:54:40 2024
+Tue May 14 21:12:44 2024
 
 
  Elaboration Time: 0.01 sec
 
  Current Memory Usage: 186.335 Meg
 
- Total Signals          : 17
- Total Nets             : 30
- Total Signal Drivers   : 8
- Total Blocks           : 4
+ Total Signals          : 22
+ Total Nets             : 63
+ Total Signal Drivers   : 12
+ Total Blocks           : 5
  Total Primitive Blocks : 3
- Total Processes        : 4
- Total Traceable Variables  : 13
- Total Scalar Nets and Variables : 513
-Total Line Count : 30
+ Total Processes        : 6
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 548
+Total Line Count : 55
 
- Total Simulation Time: 0.29 sec
+ Total Simulation Time: 0.15 sec
 
  Current Memory Usage: 261.837 Meg
 
-Tue May 14 07:55:54 2024
+Tue May 14 21:14:10 2024
 

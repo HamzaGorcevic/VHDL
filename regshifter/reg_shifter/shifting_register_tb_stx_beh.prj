@@ -1,0 +1,3 @@
+vhdl isim_temp "clock_divider.vhd"
+vhdl isim_temp "reg_shifter.vhd"
+vhdl isim_temp "shifting_registertb.vhd"

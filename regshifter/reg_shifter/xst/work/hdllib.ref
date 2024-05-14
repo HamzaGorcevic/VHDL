@@ -1,2 +1,4 @@
+AR clock_divider behavioral /home/hamza/VHDL/regshifter/reg_shifter/clock_divider.vhd sub00/vhpl03 1715712898
+EN clock_divider NULL /home/hamza/VHDL/regshifter/reg_shifter/clock_divider.vhd sub00/vhpl02 1715712897
 AR shifting_register behavioral /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd sub00/vhpl01 1715648890
-EN shifting_register NULL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd sub00/vhpl00 1715648889
+EN shifting_register NULL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd sub00/vhpl00 1715712899

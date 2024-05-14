@@ -1,8 +1,15 @@
-V3 3
+V3 7
+FL /home/hamza/VHDL/regshifter/reg_shifter/clock_divider.vhd 2024/05/14.08:09:01 P.20131013
+EN work/clock_divider 1715712897 \
+      FL /home/hamza/VHDL/regshifter/reg_shifter/clock_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_divider/Behavioral 1715712898 \
+      FL /home/hamza/VHDL/regshifter/reg_shifter/clock_divider.vhd \
+      EN work/clock_divider 1715712897
 FL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd 2024/05/14.03:08:05 P.20131013
 EN work/shifting_register 1715648889 \
       FL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
 AR work/shifting_register/Behavioral 1715648890 \
       FL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd \
-      EN work/shifting_register 1715648889
+      EN work/shifting_register 1715648889 CP Clock_Divider

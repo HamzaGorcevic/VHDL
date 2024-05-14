@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.02 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.02 secs
  
 --> 
 Reading design: shifting_register.prj
@@ -107,252 +107,21 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
+Compiling vhdl file "/home/hamza/VHDL/regshifter/reg_shifter/clock_divider.vhd" in Library work.
+Entity <clock_divider> compiled.
+Entity <clock_divider> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd" in Library work.
 Entity <shifting_register> compiled.
-Entity <shifting_register> (Architecture <behavioral>) compiled.
-
-=========================================================================
-*                     Design Hierarchy Analysis                         *
-=========================================================================
-Analyzing hierarchy for entity <shifting_register> in library <work> (architecture <behavioral>).
-
-
-=========================================================================
-*                            HDL Analysis                               *
-=========================================================================
-Analyzing Entity <shifting_register> in library <work> (Architecture <behavioral>).
-WARNING:Xst:1610 - "/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd" line 37: Width mismatch. <rSHREG> has a width of 8 bits but assigned expression is 9-bit wide.
-Entity <shifting_register> analyzed. Unit <shifting_register> generated.
-
-
-=========================================================================
-*                           HDL Synthesis                               *
-=========================================================================
-
-Performing bidirectional port resolution...
-
-Synthesizing Unit <shifting_register>.
-    Related source file is "/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd".
-    Found 8-bit register for signal <rSHREG>.
-    Summary:
-	inferred   8 D-type flip-flop(s).
-Unit <shifting_register> synthesized.
-
-
-=========================================================================
-HDL Synthesis Report
-
-Macro Statistics
-# Registers                                            : 1
- 8-bit register                                        : 1
-
-=========================================================================
-
-=========================================================================
-*                       Advanced HDL Synthesis                          *
-=========================================================================
-
-
-=========================================================================
-Advanced HDL Synthesis Report
-
-Macro Statistics
-# Registers                                            : 8
- Flip-Flops                                            : 8
-
-=========================================================================
-
-=========================================================================
-*                         Low Level Synthesis                           *
-=========================================================================
-
-Optimizing unit <shifting_register> ...
-
-Mapping all equations...
-Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block shifting_register, actual ratio is 0.
-
-Final Macro Processing ...
-
-=========================================================================
-Final Register Report
-
-Macro Statistics
-# Registers                                            : 8
- Flip-Flops                                            : 8
-
-=========================================================================
-
-=========================================================================
-*                           Partition Report                            *
-=========================================================================
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
-
-=========================================================================
-*                            Final Report                               *
-=========================================================================
-Final Results
-RTL Top Level Output File Name     : shifting_register.ngr
-Top Level Output File Name         : shifting_register
-Output Format                      : NGC
-Optimization Goal                  : Speed
-Keep Hierarchy                     : No
-
-Design Statistics
-# IOs                              : 22
-
-Cell Usage :
-# BELS                             : 17
-#      LUT2                        : 1
-#      LUT3                        : 1
-#      LUT4                        : 8
-#      MUXF5                       : 7
-# FlipFlops/Latches                : 8
-#      FDCE                        : 8
-# Clock Buffers                    : 1
-#      BUFGP                       : 1
-# IO Buffers                       : 20
-#      IBUF                        : 12
-#      OBUF                        : 8
-=========================================================================
-
-Device utilization summary:
----------------------------
-
-Selected Device : 3s1500fg676-4 
-
- Number of Slices:                        9  out of  13312     0%  
- Number of Slice Flip Flops:              8  out of  26624     0%  
- Number of 4 input LUTs:                 10  out of  26624     0%  
- Number of IOs:                          22
- Number of bonded IOBs:                  21  out of    487     4%  
- Number of GCLKs:                         1  out of      8    12%  
-
----------------------------
-Partition Resource Summary:
----------------------------
-
-  No Partitions were found in this design.
-
----------------------------
-
-
-=========================================================================
-TIMING REPORT
-
-NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
-      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
-      GENERATED AFTER PLACE-and-ROUTE.
-
-Clock Information:
-------------------
------------------------------------+------------------------+-------+
-Clock Signal                       | Clock buffer(FF name)  | Load  |
------------------------------------+------------------------+-------+
-iCLK                               | BUFGP                  | 8     |
------------------------------------+------------------------+-------+
-
-Asynchronous Control Signals Information:
-----------------------------------------
------------------------------------+------------------------+-------+
-Control Signal                     | Buffer(FF name)        | Load  |
------------------------------------+------------------------+-------+
-inRST                              | IBUF                   | 8     |
------------------------------------+------------------------+-------+
-
-Timing Summary:
----------------
-Speed Grade: -4
-
-   Minimum period: 3.080ns (Maximum Frequency: 324.675MHz)
-   Minimum input arrival time before clock: 4.520ns
-   Maximum output required time after clock: 7.271ns
-   Maximum combinational path delay: No path found
-
-Timing Detail:
---------------
-All values displayed in nanoseconds (ns)
-
-=========================================================================
-Timing constraint: Default period analysis for Clock 'iCLK'
-  Clock period: 3.080ns (frequency: 324.675MHz)
-  Total number of paths / destination ports: 15 / 8
--------------------------------------------------------------------------
-Delay:               3.080ns (Levels of Logic = 2)
-  Source:            rSHREG_1 (FF)
-  Destination:       rSHREG_2 (FF)
-  Source Clock:      iCLK rising
-  Destination Clock: iCLK rising
-
-  Data Path: rSHREG_1 to rSHREG_2
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDCE:C->Q             3   0.720   1.246  rSHREG_1 (rSHREG_1)
-     LUT4:I0->O            1   0.551   0.000  rSHREG_mux0001<2>311 (rSHREG_mux0001<2>31)
-     MUXF5:I0->O           1   0.360   0.000  rSHREG_mux0001<2>31_f5 (rSHREG_mux0001<2>)
-     FDCE:D                    0.203          rSHREG_2
-    ----------------------------------------
-    Total                      3.080ns (1.834ns logic, 1.246ns route)
-                                       (59.5% logic, 40.5% route)
-
-=========================================================================
-Timing constraint: Default OFFSET IN BEFORE for Clock 'iCLK'
-  Total number of paths / destination ports: 56 / 16
--------------------------------------------------------------------------
-Offset:              4.520ns (Levels of Logic = 2)
-  Source:            iSHR (PAD)
-  Destination:       rSHREG_0 (FF)
-  Destination Clock: iCLK rising
-
-  Data Path: iSHR to rSHREG_0
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     IBUF:I->O             9   0.821   1.463  iSHR_IBUF (iSHR_IBUF)
-     LUT3:I0->O            8   0.551   1.083  rSHREG_not00011 (rSHREG_not0001)
-     FDCE:CE                   0.602          rSHREG_0
-    ----------------------------------------
-    Total                      4.520ns (1.974ns logic, 2.546ns route)
-                                       (43.7% logic, 56.3% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'iCLK'
-  Total number of paths / destination ports: 8 / 8
--------------------------------------------------------------------------
-Offset:              7.271ns (Levels of Logic = 1)
-  Source:            rSHREG_7 (FF)
-  Destination:       oSHREG<7> (PAD)
-  Source Clock:      iCLK rising
-
-  Data Path: rSHREG_7 to oSHREG<7>
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDCE:C->Q             3   0.720   0.907  rSHREG_7 (rSHREG_7)
-     OBUF:I->O                 5.644          oSHREG_7_OBUF (oSHREG<7>)
-    ----------------------------------------
-    Total                      7.271ns (6.364ns logic, 0.907ns route)
-                                       (87.5% logic, 12.5% route)
-
-=========================================================================
-
-
-Total REAL time to Xst completion: 2.00 secs
-Total CPU time to Xst completion: 1.71 secs
- 
+ERROR:HDLParsers:850 - "/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd" Line 33. Formal port CLOCK_IN does not exist in Component 'Clock_Divider'.
+ERROR:HDLParsers:3313 - "/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd" Line 49. Undefined symbol 'rsSHREG'.  Should it be: rSHREG or rsHREG?
+ERROR:HDLParsers:1209 - "/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd" Line 49. rsSHREG: Undefined symbol (last report in this block)
+ERROR:HDLParsers:164 - "/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd" Line 51. parse error, unexpected ELSE, expecting SEMICOLON
 --> 
 
 
-Total memory usage is 507376 kilobytes
+Total memory usage is 485720 kilobytes
 
-Number of errors   :    0 (   0 filtered)
-Number of warnings :    1 (   0 filtered)
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

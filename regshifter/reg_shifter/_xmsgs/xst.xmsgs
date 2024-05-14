@@ -5,7 +5,16 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="1610" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd</arg>&quot; line <arg fmt="%d" index="2">37</arg>: Width mismatch. &lt;<arg fmt="%s" index="3">rSHREG</arg>&gt; has a width of <arg fmt="%d" index="4">8</arg> bits but assigned expression is <arg fmt="%d" index="5">9</arg>-bit wide.
+<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. Formal port <arg fmt="%s" index="3">CLOCK_IN</arg> does not exist in <arg fmt="%s" index="4">Component &apos;Clock_Divider&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3313" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. Undefined symbol &apos;<arg fmt="%s" index="3">rsSHREG</arg>&apos;.  Should it be: <arg fmt="%s" index="4">rSHREG or rsHREG</arg>?
+</msg>
+
+<msg type="error" file="HDLParsers" num="1209" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. <arg fmt="%s" index="3">rsSHREG</arg>: Undefined symbol (last report in this block)
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">/home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">parse error, unexpected ELSE, expecting SEMICOLON</arg>
 </msg>
 
 </messages>

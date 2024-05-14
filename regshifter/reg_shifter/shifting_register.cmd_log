@@ -98,3 +98,4 @@ map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shiftin
 par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
 bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
