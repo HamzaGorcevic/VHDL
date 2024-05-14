@@ -1,0 +1,2 @@
+vhdl work "reg_shifter.vhd"
+vhdl work "shifting_registertb.vhd"

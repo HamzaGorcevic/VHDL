@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 14 09:35:58 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Y<1>" LOCATE = SITE "AB8" LEVEL 1;
+COMP "Y<2>" LOCATE = SITE "AA9" LEVEL 1;
+COMP "Y<3>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "X0" LOCATE = SITE "Y10" LEVEL 1;
+COMP "X1" LOCATE = SITE "Y9" LEVEL 1;
+COMP "SWITCH" LOCATE = SITE "Y8" LEVEL 1;
+COMP "Y<0>" LOCATE = SITE "AB7" LEVEL 1;
+SCHEMATIC END;
+

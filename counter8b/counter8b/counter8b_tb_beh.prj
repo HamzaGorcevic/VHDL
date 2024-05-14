@@ -1,0 +1,3 @@
+vhdl work "clock_divider.vhd"
+vhdl work "counter8.vhd"
+vhdl work "counter8tb.vhd"

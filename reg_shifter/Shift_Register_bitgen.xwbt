@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/hamza/VHDL/reg_shifter/Shift_Register.ncd
+OUTFILE=/home/hamza/VHDL/reg_shifter/Shift_Register.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=/home/hamza/VHDL/reg_shifter
+LICENSE=WebPack
+USER_INFO=212994068_0_0_217

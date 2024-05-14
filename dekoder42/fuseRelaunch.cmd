@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/hamza/dekoder42/test_isim_beh.exe" -prj "/home/hamza/dekoder42/test_beh.prj" "work.test" 

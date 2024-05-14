@@ -1,0 +1,100 @@
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.xst" -ofn "/home/hamza/VHDL/regshifter/reg_shifter/shifting_register.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shifting_register.ucf -p xc3s1500-fg676-4 shifting_register.ngc shifting_register.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o shifting_register_map.ncd shifting_register.ngd shifting_register.pcf 
+par -w -intstyle ise -ol high -t 1 shifting_register_map.ncd shifting_register.ncd shifting_register.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml shifting_register.twx shifting_register.ncd -o shifting_register.twr shifting_register.pcf -ucf shifting_register.ucf 
+bitgen -intstyle ise -f shifting_register.ut shifting_register.ncd 

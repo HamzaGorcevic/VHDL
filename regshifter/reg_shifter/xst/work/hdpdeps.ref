@@ -1,0 +1,8 @@
+V3 3
+FL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd 2024/05/14.03:08:05 P.20131013
+EN work/shifting_register 1715648889 \
+      FL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/shifting_register/Behavioral 1715648890 \
+      FL /home/hamza/VHDL/regshifter/reg_shifter/reg_shifter.vhd \
+      EN work/shifting_register 1715648889

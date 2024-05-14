@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/hamza/VHDL/reg_shifter/Shift_Register_isim_beh.exe" -prj "/home/hamza/VHDL/reg_shifter/Shift_Register_beh.prj" "work.Shift_Register" 

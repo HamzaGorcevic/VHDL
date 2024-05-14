@@ -1,0 +1,426 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.02 secs
+ 
+--> 
+Reading design: counter8b.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "counter8b.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "counter8b"
+Output Format                      : NGC
+Target Device                      : xc3s1500-4-fg676
+
+---- Source Options
+Top Module Name                    : counter8b
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/counter8b is now defined in a different file.  It was defined in "/home/hamza/VHDL/counter8b/counter8b/counter8b.vhd", and is now defined in "/home/hamza/VHDL/counter8b/counter8b/counter8.vhd".
+WARNING:HDLParsers:3607 - Unit work/counter8b/Behavioral is now defined in a different file.  It was defined in "/home/hamza/VHDL/counter8b/counter8b/counter8b.vhd", and is now defined in "/home/hamza/VHDL/counter8b/counter8b/counter8.vhd".
+Compiling vhdl file "/home/hamza/VHDL/counter8b/counter8b/clock_divider.vhd" in Library work.
+Entity <clock_divider> compiled.
+Entity <clock_divider> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/hamza/VHDL/counter8b/counter8b/counter8.vhd" in Library work.
+Entity <counter8b> compiled.
+Entity <counter8b> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <counter8b> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clock_Divider> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <counter8b> in library <work> (Architecture <behavioral>).
+Entity <counter8b> analyzed. Unit <counter8b> generated.
+
+Analyzing Entity <Clock_Divider> in library <work> (Architecture <Behavioral>).
+Entity <Clock_Divider> analyzed. Unit <Clock_Divider> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Clock_Divider>.
+    Related source file is "/home/hamza/VHDL/counter8b/counter8b/clock_divider.vhd".
+    Found 31-bit up counter for signal <counter>.
+    Found 1-bit register for signal <slow_clk>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Clock_Divider> synthesized.
+
+
+Synthesizing Unit <counter8b>.
+    Related source file is "/home/hamza/VHDL/counter8b/counter8b/counter8.vhd".
+    Found 8-bit up counter for signal <t_cnt>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <counter8b> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 31-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 31-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <counter8b> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block counter8b, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : counter8b.ngr
+Top Level Output File Name         : counter8b
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 134
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 37
+#      LUT3                        : 1
+#      LUT4                        : 7
+#      MUXCY                       : 45
+#      VCC                         : 1
+#      XORCY                       : 39
+# FlipFlops/Latches                : 40
+#      FDCE                        : 8
+#      FDE                         : 1
+#      FDR                         : 31
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      IBUF                        : 2
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1500fg676-4 
+
+ Number of Slices:                       26  out of  13312     0%  
+ Number of Slice Flip Flops:             40  out of  26624     0%  
+ Number of 4 input LUTs:                 48  out of  26624     0%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    487     2%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+iCLK                               | BUFGP                  | 32    |
+clock_divider_inst/slow_clk        | NONE(t_cnt_0)          | 8     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+iRST                               | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.531ns (Maximum Frequency: 153.114MHz)
+   Minimum input arrival time before clock: 2.506ns
+   Maximum output required time after clock: 7.241ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'iCLK'
+  Clock period: 6.531ns (frequency: 153.114MHz)
+  Total number of paths / destination ports: 1489 / 64
+-------------------------------------------------------------------------
+Delay:               6.531ns (Levels of Logic = 9)
+  Source:            clock_divider_inst/counter_8 (FF)
+  Destination:       clock_divider_inst/counter_0 (FF)
+  Source Clock:      iCLK rising
+  Destination Clock: iCLK rising
+
+  Data Path: clock_divider_inst/counter_8 to clock_divider_inst/counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.720   1.216  clock_divider_inst/counter_8 (clock_divider_inst/counter_8)
+     LUT3:I0->O            1   0.551   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_lut<0> (clock_divider_inst/slow_clk_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<0> (clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<1> (clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<2> (clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<3> (clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<4> (clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<5> (clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<6> (clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          32   0.281   1.853  clock_divider_inst/slow_clk_cmp_eq0000_wg_cy<7> (clock_divider_inst/slow_clk_cmp_eq0000)
+     FDR:R                     1.026          clock_divider_inst/counter_0
+    ----------------------------------------
+    Total                      6.531ns (3.462ns logic, 3.069ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_divider_inst/slow_clk'
+  Clock period: 4.414ns (frequency: 226.552MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               4.414ns (Levels of Logic = 8)
+  Source:            t_cnt_1 (FF)
+  Destination:       t_cnt_7 (FF)
+  Source Clock:      clock_divider_inst/slow_clk rising
+  Destination Clock: clock_divider_inst/slow_clk rising
+
+  Data Path: t_cnt_1 to t_cnt_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.720   1.216  t_cnt_1 (t_cnt_1)
+     LUT1:I0->O            1   0.551   0.000  Mcount_t_cnt_cy<1>_rt (Mcount_t_cnt_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  Mcount_t_cnt_cy<1> (Mcount_t_cnt_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_t_cnt_cy<2> (Mcount_t_cnt_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_t_cnt_cy<3> (Mcount_t_cnt_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_t_cnt_cy<4> (Mcount_t_cnt_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_t_cnt_cy<5> (Mcount_t_cnt_cy<5>)
+     MUXCY:CI->O           0   0.064   0.000  Mcount_t_cnt_cy<6> (Mcount_t_cnt_cy<6>)
+     XORCY:CI->O           1   0.904   0.000  Mcount_t_cnt_xor<7> (Result<7>)
+     FDCE:D                    0.203          t_cnt_7
+    ----------------------------------------
+    Total                      4.414ns (3.198ns logic, 1.216ns route)
+                                       (72.5% logic, 27.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_divider_inst/slow_clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              2.506ns (Levels of Logic = 1)
+  Source:            iEN (PAD)
+  Destination:       t_cnt_0 (FF)
+  Destination Clock: clock_divider_inst/slow_clk rising
+
+  Data Path: iEN to t_cnt_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   0.821   1.083  iEN_IBUF (iEN_IBUF)
+     FDCE:CE                   0.602          t_cnt_0
+    ----------------------------------------
+    Total                      2.506ns (1.423ns logic, 1.083ns route)
+                                       (56.8% logic, 43.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock_divider_inst/slow_clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              7.241ns (Levels of Logic = 1)
+  Source:            t_cnt_7 (FF)
+  Destination:       oCNT<7> (PAD)
+  Source Clock:      clock_divider_inst/slow_clk rising
+
+  Data Path: t_cnt_7 to oCNT<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             2   0.720   0.877  t_cnt_7 (t_cnt_7)
+     OBUF:I->O                 5.644          oCNT_7_OBUF (oCNT<7>)
+    ----------------------------------------
+    Total                      7.241ns (6.364ns logic, 0.877ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.71 secs
+ 
+--> 
+
+
+Total memory usage is 507764 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

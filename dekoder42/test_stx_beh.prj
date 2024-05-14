@@ -1,0 +1,2 @@
+vhdl isim_temp "dekoder42.vhd"
+vhdl isim_temp "tb.vhd"

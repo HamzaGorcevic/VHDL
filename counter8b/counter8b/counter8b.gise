@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="counter8b.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clock_divider_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clock_divider_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clock_divider_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="counter8b.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="counter8b.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="counter8b.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="counter8b.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="counter8b.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="counter8b.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="counter8b.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="counter8b.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="counter8b.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="counter8b.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="counter8b.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="counter8b.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="counter8b.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter8b.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="counter8b.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="counter8b.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="counter8b.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="counter8b.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="counter8b.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="counter8b.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="counter8b.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="counter8b.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="counter8b.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="counter8b_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="counter8b_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="counter8b_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="counter8b_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="counter8b_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="counter8b_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="counter8b_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="counter8b_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="counter8b_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="counter8b_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="counter8b_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="counter8b_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="counter8b_summary.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter8b_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter8b_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="counter8b_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="counter8b_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="counter8b_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1715638503" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1715638503">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715642971" xil_pn:in_ck="-2215856623823654912" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1715642971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clock_divider.vhd"/>
+      <outfile xil_pn:name="clock_dividertb.vhd"/>
+      <outfile xil_pn:name="counter8.vhd"/>
+      <outfile xil_pn:name="counter8tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1715642971" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="587799275512681746" xil_pn:start_ts="1715642971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715642971" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="576589775936071626" xil_pn:start_ts="1715642971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715638503" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6473139884057536698" xil_pn:start_ts="1715638503">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715642971" xil_pn:in_ck="-2215856623823654912" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1715642971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="clock_divider.vhd"/>
+      <outfile xil_pn:name="clock_dividertb.vhd"/>
+      <outfile xil_pn:name="counter8.vhd"/>
+      <outfile xil_pn:name="counter8tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1715642972" xil_pn:in_ck="-2215856623823654912" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4611902439091799668" xil_pn:start_ts="1715642971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="counter8b_tb_beh.prj"/>
+      <outfile xil_pn:name="counter8b_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1715642972" xil_pn:in_ck="-6431989466354133483" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2436140915076192225" xil_pn:start_ts="1715642972">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="counter8b_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1715636201" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1715636201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639686" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2852605057017720181" xil_pn:start_ts="1715639686">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639686" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6473139884057536698" xil_pn:start_ts="1715639686">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715636201" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1715636201">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639686" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-602597342569868867" xil_pn:start_ts="1715639686">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715636202" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1429692520443753923" xil_pn:start_ts="1715636202">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639686" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3476970904135348412" xil_pn:start_ts="1715639686">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639689" xil_pn:in_ck="-6909568229758575158" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-6169665154741072348" xil_pn:start_ts="1715639686">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="counter8b.lso"/>
+      <outfile xil_pn:name="counter8b.ngc"/>
+      <outfile xil_pn:name="counter8b.ngr"/>
+      <outfile xil_pn:name="counter8b.prj"/>
+      <outfile xil_pn:name="counter8b.stx"/>
+      <outfile xil_pn:name="counter8b.syr"/>
+      <outfile xil_pn:name="counter8b.xst"/>
+      <outfile xil_pn:name="counter8b_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639915" xil_pn:in_ck="4895006741942769894" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3638584916273551186" xil_pn:start_ts="1715639915">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639917" xil_pn:in_ck="-8020420542235674490" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3275082405349370782" xil_pn:start_ts="1715639915">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="counter8b.bld"/>
+      <outfile xil_pn:name="counter8b.ngd"/>
+      <outfile xil_pn:name="counter8b_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639919" xil_pn:in_ck="-8320298769915825625" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-8741180932482148155" xil_pn:start_ts="1715639917">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="counter8b.pcf"/>
+      <outfile xil_pn:name="counter8b_map.map"/>
+      <outfile xil_pn:name="counter8b_map.mrp"/>
+      <outfile xil_pn:name="counter8b_map.ncd"/>
+      <outfile xil_pn:name="counter8b_map.ngm"/>
+      <outfile xil_pn:name="counter8b_map.xrpt"/>
+      <outfile xil_pn:name="counter8b_summary.xml"/>
+      <outfile xil_pn:name="counter8b_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639926" xil_pn:in_ck="-8343176548129868576" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-561354228862665646" xil_pn:start_ts="1715639919">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="counter8b.ncd"/>
+      <outfile xil_pn:name="counter8b.pad"/>
+      <outfile xil_pn:name="counter8b.par"/>
+      <outfile xil_pn:name="counter8b.ptwx"/>
+      <outfile xil_pn:name="counter8b.unroutes"/>
+      <outfile xil_pn:name="counter8b.xpi"/>
+      <outfile xil_pn:name="counter8b_pad.csv"/>
+      <outfile xil_pn:name="counter8b_pad.txt"/>
+      <outfile xil_pn:name="counter8b_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639930" xil_pn:in_ck="4895006741942762269" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1715639926">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="counter8b.bgn"/>
+      <outfile xil_pn:name="counter8b.bit"/>
+      <outfile xil_pn:name="counter8b.drc"/>
+      <outfile xil_pn:name="counter8b.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639932" xil_pn:in_ck="4895006741942749415" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6745644827150672321" xil_pn:start_ts="1715639930">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639926" xil_pn:in_ck="-5629860863554979037" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1715639924">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="counter8b.twr"/>
+      <outfile xil_pn:name="counter8b.twx"/>
+    </transform>
+    <transform xil_pn:end_ts="1715639765" xil_pn:in_ck="4895006741942762401" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1715639762">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

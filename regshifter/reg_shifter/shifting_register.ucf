@@ -1,0 +1,19 @@
+NET iCLK loc = AE14;
+NET inRST loc = Y8;
+NET iLOAD loc = Y9;
+NET iSHL loc = Y10;
+NET iSHR loc = Y11;
+NET iARITH loc = Y12;
+NET "iDATA(5)" loc = W11;
+NET "iDATA(6)" loc = W12;
+NET "iDATA(7)" loc = W13;
+
+NET "oSHREG(0)" LOC = AB7;
+NET "oSHREG(1)" LOC = AB8;
+NET "oSHREG(2)" LOC = AB9;
+NET "oSHREG(3)" LOC = AA9;
+NET "oSHREG(4)" LOC = AA10;
+NET "oSHREG(5)" LOC = AA11;
+NET "oSHREG(6)" LOC = AD12;
+NET "oSHREG(7)" LOC = Y13;
+

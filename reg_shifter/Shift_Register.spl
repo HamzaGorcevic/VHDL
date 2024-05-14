@@ -1,0 +1,12 @@
+[Inputs]
+iCLK
+iLOAD
+iSHL
+iSHR
+iARITH
+iReset
+=iDATA[7:0]=
+[Outputs]
+oClockOut
+=oREG[7:0]=
+[BiDir]

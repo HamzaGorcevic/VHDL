@@ -1,0 +1,7 @@
+AR dekoder behavioral /home/hamza/VHDL/dekoded/dekoder.vhd sub00/vhpl01 1715672109
+EN decoder2to4 NULL /home/hamza/VHDL/dekoded/dekoder.vhd sub00/vhpl02 1715672691
+AR top_level structural /home/hamza/VHDL/dekoded/dekoder.vhd sub00/vhpl05 1715709349
+AR decoder2to4 behavioral /home/hamza/VHDL/dekoded/dekoder.vhd sub00/vhpl03 1715709348
+EN dekoder NULL /home/hamza/VHDL/dekoded/dekoder.vhd sub00/vhpl00 1715672108
+EN circuit NULL /home/hamza/VHDL/dekoded/dekoder.vhd sub00/vhpl06 1715709059
+EN top_level NULL /home/hamza/VHDL/dekoded/dekoder.vhd sub00/vhpl04 1715709347

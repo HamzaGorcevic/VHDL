@@ -1,0 +1,22 @@
+
+NET "A(0)" LOC = Y8;
+NET "A(1)" LOC = Y9;
+NET "Y(0)" LOC = AB7;
+NET "Y(1)" LOC = AB8;
+NET "Y(2)" LOC = AB9;
+NET "Y(3)" LOC = AB10;
+
+
+NET "A1(0)" LOC = Y8;
+NET "A1(1)" LOC = Y9;
+NET "Y_comp1(0)" LOC = AB7;
+NET "Y_comp1(1)" LOC = AB8;
+NET "Y_comp1(2)" LOC = AB9;
+NET "Y_comp1(3)" LOC = AB10;
+
+NET "A2(0)" LOC = Y8;
+NET "A2(1)" LOC = Y9;
+NET "Y_comp2(0)" LOC = AB7;
+NET "Y_comp2(1)" LOC = AB8;
+NET "Y_comp2(2)" LOC = AB9;
+NET "Y_comp2(3)" LOC = AB10;

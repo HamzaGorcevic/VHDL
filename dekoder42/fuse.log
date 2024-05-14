@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/hamza/dekoder42/test_isim_beh.exe -prj /home/hamza/dekoder42/test_beh.prj work.test 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/hamza/dekoder42/tb.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "/home/hamza/dekoder42/tb.vhd" Line 70: <dekoder> remains a black-box since it has no binding entity.
+Completed static elaboration
+Fuse Memory Usage: 85212 KB
+Fuse CPU Usage: 720 ms
+WARNING:Simulator:648 - "/home/hamza/dekoder42/tb.vhd" Line 70. Instance dekoder is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 VHDL Units
+Built simulation executable /home/hamza/dekoder42/test_isim_beh.exe
+Fuse Memory Usage: 1175304 KB
+Fuse CPU Usage: 730 ms
+GCC CPU Usage: 70 ms

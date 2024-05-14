@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon May 13 19:12:34 2024
+# Process ID: 5345
+# Log file: /home/hamza/VHDL/reg_shifter/planAhead_run_1/planAhead.log
+# Journal file: /home/hamza/VHDL/reg_shifter/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/hamza/VHDL/reg_shifter/pa.fromNetlist.tcl

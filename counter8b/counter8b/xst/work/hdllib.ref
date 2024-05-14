@@ -1,0 +1,4 @@
+AR clock_divider behavioral /home/hamza/VHDL/counter8b/counter8b/clock_divider.vhd sub00/vhpl03 1715639689
+AR counter8b behavioral /home/hamza/VHDL/counter8b/counter8b/counter8.vhd sub00/vhpl01 1715639691
+EN clock_divider NULL /home/hamza/VHDL/counter8b/counter8b/clock_divider.vhd sub00/vhpl02 1715639688
+EN counter8b NULL /home/hamza/VHDL/counter8b/counter8b/counter8.vhd sub00/vhpl00 1715639690

@@ -1,0 +1,21 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/hamza/VHDL/reg_shifter/Shift_Register_isim_beh.exe -prj /home/hamza/VHDL/reg_shifter/Shift_Register_beh.prj work.Shift_Register 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/hamza/VHDL/reg_shifter/Shift_Register.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 86988 KB
+Fuse CPU Usage: 730 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity shift_register
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 4 VHDL Units
+Built simulation executable /home/hamza/VHDL/reg_shifter/Shift_Register_isim_beh.exe
+Fuse Memory Usage: 1183392 KB
+Fuse CPU Usage: 770 ms
+GCC CPU Usage: 80 ms

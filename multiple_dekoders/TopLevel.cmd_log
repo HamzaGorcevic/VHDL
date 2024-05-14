@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/hamza/VHDL/dekoded/TopLevel.xst" -ofn "/home/hamza/VHDL/dekoded/TopLevel.syr" 

@@ -1,0 +1,10 @@
+V3 8
+FL /home/hamza/VHDL/dekoded/dekoder.vhd 2024/05/14.19:55:28 P.20131013
+EN work/decoder2to4 0 FL /home/hamza/VHDL/dekoded/dekoder.vhd
+EN work/top_level 1715709347 \
+      FL /home/hamza/VHDL/dekoded/dekoder.vhd PB ieee/std_logic_1164 1381692176
+AR work/decoder2to4/Behavioral 1715709348 \
+      FL /home/hamza/VHDL/dekoded/dekoder.vhd EN work/decoder2to4 0
+AR work/top_level/Structural 1715709349 \
+      FL /home/hamza/VHDL/dekoded/dekoder.vhd EN work/top_level 1715709347 \
+      CP decoder2to4
