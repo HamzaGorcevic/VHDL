@@ -1,0 +1,29 @@
+Command line:
+   clock_divider_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55449
+
+Tue May 14 21:15:24 2024
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 186.327 Meg
+
+ Total Signals          : 4
+ Total Nets             : 34
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 519
+Total Line Count : 6
+
+ Total Simulation Time: 0.01 sec
+
+ Current Memory Usage: 261.829 Meg
+
+Tue May 14 21:15:35 2024
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8tb_isim_beh.exe" -prj "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8tb_beh.prj" "work.dekoder3_8tb" 

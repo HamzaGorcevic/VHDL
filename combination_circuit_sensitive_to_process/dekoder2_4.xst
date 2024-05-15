@@ -1,0 +1,5 @@
+set -tmpdir "/home/hamza/VHDL/combination_circuit_sensitive_to_process/xst/projnav.tmp"
+set -xsthdpdir "/home/hamza/VHDL/combination_circuit_sensitive_to_process/xst"
+elaborate
+-ifn dekoder2_4.prj
+-ifmt mixed

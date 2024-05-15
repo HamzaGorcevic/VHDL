@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-05-14T21:10:48</DateModified>
+  <DateModified>2024-05-14T21:15:00</DateModified>
   <ModuleName>shifting_register</ModuleName>
   <SummaryTimeStamp>2024-05-14T20:54:57</SummaryTimeStamp>
   <SavedFilePath>/home/hamza/VHDL/regshifter/reg_shifter/iseconfig/shifting_register.xreport</SavedFilePath>

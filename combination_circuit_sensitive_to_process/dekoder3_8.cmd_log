@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.xst" -ofn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.xst" -ofn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.xst" -ofn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.xst" -ofn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.xst" -ofn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.xst" -ofn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.xst" -ofn "/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 dekoder3_8.ngc dekoder3_8.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o dekoder3_8_map.ncd dekoder3_8.ngd dekoder3_8.pcf 
+par -w -intstyle ise -ol high -t 1 dekoder3_8_map.ncd dekoder3_8.ncd dekoder3_8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml dekoder3_8.twx dekoder3_8.ncd -o dekoder3_8.twr dekoder3_8.pcf 

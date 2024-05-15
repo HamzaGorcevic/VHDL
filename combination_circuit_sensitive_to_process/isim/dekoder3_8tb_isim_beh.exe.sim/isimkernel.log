@@ -1,0 +1,29 @@
+Command line:
+   dekoder3_8tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51401
+
+Thu May 16 01:03:55 2024
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 186.237 Meg
+
+ Total Signals          : 15
+ Total Nets             : 20
+ Total Signal Drivers   : 6
+ Total Blocks           : 5
+ Total Primitive Blocks : 3
+ Total Processes        : 5
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 381
+Total Line Count : 26
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 261.738 Meg
+
+Thu May 16 01:05:06 2024
+

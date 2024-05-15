@@ -2,9 +2,9 @@ Command line:
    counter8b_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  53749
+     -socket  33645
 
-Tue May 14 01:29:34 2024
+Tue May 14 21:16:38 2024
 
 
  Elaboration Time: 0.01 sec
@@ -21,9 +21,9 @@ Tue May 14 01:29:34 2024
  Total Scalar Nets and Variables : 538
 Total Line Count : 17
 
- Total Simulation Time: 0.05 sec
+ Total Simulation Time: 0.09 sec
 
  Current Memory Usage: 261.833 Meg
 
-Tue May 14 01:29:53 2024
+Tue May 14 21:17:22 2024
 

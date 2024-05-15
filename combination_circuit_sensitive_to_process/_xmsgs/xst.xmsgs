@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder3_8.vhd</arg>&quot; line <arg fmt="%d" index="2">73</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;y_upper&gt;, &lt;y_lower&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">/home/hamza/VHDL/combination_circuit_sensitive_to_process/dekoder2_4.vhd</arg>&quot; line <arg fmt="%d" index="2">25</arg>: Mux is complete : default of case is discarded
+</msg>
+
+</messages>
+
